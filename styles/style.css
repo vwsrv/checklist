@@ -1,0 +1,14 @@
+@import url('../vendor/fonts/fonts.css');
+
+:root {
+    --blue-color: #3579F5;
+    --blue-light-color: #4777ED;
+    --blue-dark-color: #2364DB;
+    --white-color: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+}
