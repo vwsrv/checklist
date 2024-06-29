@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "./vendor/normalize.css">
-    <link rel = "stylesheet" href = "./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Чеклист</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <div class="checklist">
+      <div class="checklistContainer">
+        <div class="progress">
+          <!-- input precent value in style.css -->
+          <svg
+            width="60"
+            height="60"
+            viewBox="0 0 250 250"
+            class="circular-progress"
+          >
+            <circle class="bg"></circle>
+            <circle class="fg"></circle>
+          </svg>
+          <h1 class="number">0/7</h1>
+        </div>
+        <div class="description">
+          <h2>Чеклист</h2>
+          <p class="bold">Выполнено: 0 из 7 действий</p>
+          <p>Следующее действие: Созвониться с клиентом до 23.05.24 12:00</p>
+        </div>
+        <button
+          type="button"
+          class="checklistButton"
+          aria-label="Открыть чеклист"
+        >
+          <p class="blue">Открыть чеклист</p>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
